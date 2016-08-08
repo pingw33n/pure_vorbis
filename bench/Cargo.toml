@@ -1,0 +1,10 @@
+[package]
+name = "pure_vorbis_bench"
+version = "0.0.0"
+authors = ["pingw33n <d@emphased.net>"]
+publish = false
+
+[dev-dependencies]
+criterion = { git = "https://github.com/japaric/criterion.rs" }
+ogg_vorbis_ref = "0.0.1"
+pure_vorbis = { path = "../" }

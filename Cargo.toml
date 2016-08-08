@@ -1,0 +1,25 @@
+[package]
+name = "pure_vorbis"
+version = "0.0.1"
+description = "Vorbis decoder implementation in pure Rust"
+authors = ["pingw33n <d@emphased.net>"]
+license = "BSD-3-Clause"
+documentation = "https://docs.rs/pure_vorbis/0.0.1/pure_vorbis"
+repository = "https://github.com/pingw33n/pure_vorbis"
+readme = "README.md"
+keywords = ["audio", "decoder", "lossy"]
+include = ["src/**/*", "Cargo.toml"]
+
+[lib]
+name = "vorbis"
+
+[dependencies]
+enum_primitive = "0.1.0"
+num = "0.1.34"
+
+[dev-dependencies]
+ao = { path = "lib/rust-ao", version = "0.6.1" }
+clap = "2.11.0"
+num_cpus = "1.0.0"
+ogg_vorbis_ref = "0.0.1"
+scoped-pool = "1.0.0"

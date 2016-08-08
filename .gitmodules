@@ -1,0 +1,3 @@
+[submodule "lib/rust-ao"]
+	path = lib/rust-ao
+	url = https://github.com/tari/rust-ao
