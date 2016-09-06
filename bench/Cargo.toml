@@ -6,5 +6,5 @@ publish = false
 
 [dev-dependencies]
 criterion = { git = "https://github.com/japaric/criterion.rs" }
-ogg_vorbis_ref = "0.0.1"
+ogg_vorbis_ref = "0.0.2"
 pure_vorbis = { path = "../" }
