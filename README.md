@@ -4,7 +4,7 @@
 
 ## Documentation
 
-https://docs.rs/pure_vorbis/0.0.1/pure_vorbis
+https://docs.rs/pure_vorbis
 
 ## Installation
 
